@@ -1,0 +1,12 @@
+Окно ожидает 
+https://yandex.ru/q/question/kak_ubrat_uvedomlenie_ob_ozhidanii_okna_v_2a5fbaca/
+
+https://extensions.gnome.org/extension/1007/window-is-ready-notification-remover/
+
+Clipboard
+https://extensions.gnome.org/extension/4839/clipboard-history/
+
+Taskbar 
+https://extensions.gnome.org/extension/4944/app-icons-taskbar/
+
+

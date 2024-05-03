@@ -1,0 +1,4 @@
+#!/bin/bash
+
+gsettings set org.gnome.desktop.wm.preferences auto-raise 'true'
+
