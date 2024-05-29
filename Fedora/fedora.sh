@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# RPM Fusion
+sudo dnf install -y \
+    "https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm" \
+    "https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm"
+
 sudo dnf update
 sudo dnf upgrade 
 
@@ -104,7 +109,7 @@ sudo snap install onlyoffice-desktopeditors
 #gpgkey=https://www.virtualbox.org/download/oracle_vbox.asc
 
 #sudo dnf search virtualbox
-#sudo dnf install virtualbox
+sudo dnf install VirtualBox
 
 
 # редактор 
@@ -115,3 +120,7 @@ sudo yum install p7zip p7zip-plugins
  
 #WhatsApp
 sudo snap install whatsapp-for-linux
+
+# мониторинг ресурсов 
+flatpak install flathub net.nokyan.Resources
+
