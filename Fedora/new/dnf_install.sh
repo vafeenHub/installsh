@@ -59,7 +59,8 @@ done
 
 SNAPS=(
     #office
-    onlyoffice-ds
+    #onlyoffice-ds
+    onlyoffice-desktopeditors
     )
 for snp in "${SNAPS[@]}"
 do
