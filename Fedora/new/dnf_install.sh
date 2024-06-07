@@ -22,50 +22,7 @@ do
     sudo dnf install -y "$app"
 done
 
-FLATPAKS=(
-# Edge 
- com.microsoft.Edge
-# TG Desktop 
- org.telegram.desktop
-# Jadx 
- com.github.skylot.jadx
-#WhatsApp
-com.github.eneshecan.WhatsAppForLinux
-# Android-Studio
-com.google.AndroidStudio
-# pea7zip
-io.github.peazip.PeaZip
-# resources 
-net.nokyan.Resources
-) 
-for fltp in "${FLATPAKS[@]}"
-do
-    sudo flatpak install -y "$fltp"
-done
+sudo dnf remove libreoffice-data
 
-
-
-SNAPSclassic=(
-    # VSCode 
-    code
-    obsidian
-    intellij-idea-community
-    whatsapp-for-linux
-)
-for snp in "${SNAPSclassic[@]}"
-do
-    sudo snap install "$snp" --classic
-done
-
-SNAPS=(
-    #office
-    #onlyoffice-ds
-    onlyoffice-desktopeditors
-    )
-for snp in "${SNAPS[@]}"
-do
-    sudo snap install "$snp"
-done
 
 sudo dnf upgrade 
-sudo flatpak update
