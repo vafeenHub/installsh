@@ -18,14 +18,14 @@ mv "$HOME/Музыка/*" "$HOME/Music/"
 mv "$HOME/Изображения/*" "$HOME/Pictures/"
 mv "$HOME/Видео/*" "$HOME/Videos/"
 
-rmdir "$HOME/Рабочий стол/" 
-rmdir "$HOME/Загрузки/" 
+rmdir "$HOME/Рабочий стол/"
+rmdir "$HOME/Загрузки/"
 rmdir "$HOME/Шаблоны/"
 rmdir "$HOME/Общедоступные/"
 rmdir "$HOME/Документы/"
 rmdir "$HOME/Музыка/"
-rmdir "$HOME/Изображения/" 
-rmdir "$HOME/Видео/" 
+rmdir "$HOME/Изображения/"
+rmdir "$HOME/Видео/"
 
 cat << EOF > ~/.config/user-dirs.dirs
 XDG_DESKTOP_DIR="$HOME/Desktop"

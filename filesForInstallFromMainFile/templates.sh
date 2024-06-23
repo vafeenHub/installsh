@@ -13,7 +13,7 @@ touch ~/Templates/CPP.cpp
 cat << EOF > ~/Templates/CPP.cpp
 #include<iostream>
 
-using namespace std; 
+using namespace std;
 
 int main(){
 
@@ -21,7 +21,7 @@ int main(){
 }
 EOF
 
-#hpp 
+#hpp
 touch ~/Templates/HPP.hpp
 cat << EOF > ~/Templates/HPP.hpp
 #pragma once
@@ -35,7 +35,7 @@ touch ~/Templates/DOCX.docx
 touch ~/Templates/XLSX.xlsx
 #pptx
 touch ~/Templates/PPTX.pptx
-#txt 
+#txt
 touch ~/Templates/TXT.txt
 
 
