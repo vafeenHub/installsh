@@ -2,7 +2,7 @@
 
 #sh
 touch ~/Templates/SH.sh
-cat << EOF > ~/Templates/CPP.cpp
+cat << EOF > ~/Templates/SH.sh
 #!/bin/bash
 
 
