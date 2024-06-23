@@ -10,13 +10,13 @@ FLATPAKS=(
     #WhatsApp
     com.github.eneshecan.WhatsAppForLinux
     # Android-Studio
-    com.google.AndroidStudio
+    #com.google.AndroidStudio
     # pea7zip
     #io.github.peazip.PeaZip
     # resources
     net.nokyan.Resources
     # intellij idea
-    com.jetbrains.IntelliJ-IDEA-Community
+    #com.jetbrains.IntelliJ-IDEA-Community
     # only Office
     org.onlyoffice.desktopeditors
 )
