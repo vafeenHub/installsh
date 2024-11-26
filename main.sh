@@ -1,20 +1,28 @@
 #!/bin/bash
 
-cd ./filesForInstallFromMainFile/
-# Определение команды для запуска
-command_to_run() {
-    if [[ "$1" == sudo* ]]; then
-        echo "sudo bash $1"
-        sudo bash ./"$1"
-    else
-        echo "bash $1"
-        bash ./"$1"
-    fi
-}
 
-# Запуск команды для каждого файла
-for file in *; do
-    if [ "$file" != "${0##*/}" ]; then
-        command_to_run "$file"
-    fi
-done
+# GNOME
+
+# launguage in every window
+gsettings set org.gnome.desktop.input-sources per-window true
+
+# disable hot corners
+gsettings set org.gnome.desktop.interface enable-hot-corners false
+
+# 3 buttons window
+gsettings set org.gnome.desktop.wm.preferences button-layout ':minimize,maximize,close'
+
+# enable dark theme
+gsettings set org.gnome.desktop.interface gtk-theme Adwaita-dark
+
+
+
+#cofig git
+
+git config --global user.name "Vafeen"
+git config --global user.email "666av6@gmail.com"
+
+
+# flameshot 
+chmod +x /home/a/MYSPACE/MyBin/flameshot.sh
+# а также просто поставить на prtscr этот файл
