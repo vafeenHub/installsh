@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# repo for virtualbox
-# sudo wget http://download.virtualbox.org/virtualbox/rpm/fedora/virtualbox.repo -P /etc/yum.repos.d/
 
 
 
@@ -20,11 +18,11 @@ sudo dnf remove libreoffice-data
 sudo dnf upgrade
 
 
-sudo flatpak install -y    com.microsoft.Edge
-sudo flatpak install -y   com.github.skylot.jadx
-sudo flatpak install -y   net.nokyan.Resources
-sudo flatpak install -y  org.onlyoffice.desktopeditors
-
+sudo flatpak install -y com.microsoft.Edge
+sudo flatpak install -y com.github.skylot.jadx
+sudo flatpak install -y net.nokyan.Resources
+sudo flatpak install -y org.onlyoffice.desktopeditors
+sudo flatpak install -y com.brave.Browser
 # установка snap
 sudo dnf install -y snapd
 
