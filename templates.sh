@@ -28,15 +28,3 @@ cat << EOF > ~/Templates/HPP.hpp
 #include<iostream>
 
 EOF
-
-#docx
-touch ~/Templates/DOCX.docx
-#excel
-touch ~/Templates/XLSX.xlsx
-#pptx
-touch ~/Templates/PPTX.pptx
-#txt
-touch ~/Templates/TXT.txt
-
-
-

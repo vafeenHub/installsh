@@ -1,49 +1,47 @@
 #!/bin/bash
 
+# Установка необходимых пакетов
+sudo apt install snapd
+sudo apt install git
+sudo apt install g++
+sudo apt install flameshot
+sudo apt install dconf-editor
+sudo apt install gnome-tweak-tool
+sudo apt install VirtualBox-7.1
+sudo apt install gnome-terminal
 
+# Удаление LibreOffice данных
+sudo apt remove libreoffice-data
 
+# Обновление системы
+sudo apt update
+sudo apt upgrade
 
+# Установка Flatpak в Ubuntu
+sudo apt install flatpak
 
-sudo dnf install    snapd
-sudo dnf install    git
-sudo dnf install    g++
-sudo dnf install   flameshot
-sudo dnf install   dconf-editor
-sudo dnf install   gnome-tweak-tool
-sudo dnf install  VirtualBox-7.1
-sudo dnf install gnome-terminal
+# Подключение репозитория Flathub
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
-sudo dnf remove libreoffice-data
+# Установка плагина для поддержки Flatpak в центре приложений (Gnome Software)
+sudo apt install gnome-software-plugin-flatpak
 
-sudo dnf upgrade
+sudo flatpak install flathub 
 
-
+# Установка приложений через Flatpak
 sudo flatpak install -y com.microsoft.Edge
 sudo flatpak install -y com.github.skylot.jadx
 sudo flatpak install -y net.nokyan.Resources
 sudo flatpak install -y org.onlyoffice.desktopeditors
 sudo flatpak install -y com.brave.Browser
-# установка snap
-sudo dnf install -y snapd
 
+# Установка snap и создание символической ссылки
+sudo apt install -y snapd
 sudo ln -s /var/lib/snapd/snap /snap
 
+# Перезапуск службы snapd
 sudo systemctl restart snapd.service
-# VSCode
-sudo snap install   code --classic
-# Obsidian - .md notes
-sudo snap install  obsidian --classic
-# p7zip
-sudo snap install p7zip-desktop
 
-
-
-
-
-
-# other
-
-#remove yelp
-sudo rm /usr/bin/yelp
-
-
+sudo snap install code --classic
+sudo snap install obsidian --classic
+sudo snap inst
