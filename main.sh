@@ -21,7 +21,7 @@ gsettings set org.gnome.desktop.interface gtk-theme Adwaita-dark
 
 git config --global user.name "Vafeen"
 git config --global user.email "666av6@gmail.com"
-
+git config --global init.defaultBranch main
 
 # flameshot 
 chmod +x /home/a/MYSPACE/MyBin/flameshot.sh
