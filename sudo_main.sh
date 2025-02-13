@@ -36,7 +36,6 @@ sudo flatpak install -y com.microsoft.Edge
 sudo flatpak install -y com.github.skylot.jadx
 sudo flatpak install -y net.nokyan.Resources
 sudo flatpak install -y org.onlyoffice.desktopeditors
-sudo flatpak install -y com.brave.Browser
 
 # Установка snap и создание символической ссылки
 sudo apt install -y snapd
