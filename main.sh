@@ -26,3 +26,6 @@ git config --global init.defaultBranch main
 # flameshot 
 chmod +x /home/a/MYSPACE/MyBin/flameshot.sh
 # а также просто поставить на prtscr этот файл
+
+# unpin dock-bar
+gnome-extensions disable ubuntu-dock@ubuntu.com

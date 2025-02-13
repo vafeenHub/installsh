@@ -9,6 +9,9 @@ sudo apt install dconf-editor
 sudo apt install gnome-tweak-tool
 sudo apt install VirtualBox-7.1
 sudo apt install gnome-terminal
+sudo apt install gnome-shell-extensions 
+sudo apt install gnome-shell-extension-manager
+sudo apt install nemo
 
 # Удаление LibreOffice данных
 sudo apt remove libreoffice-data
