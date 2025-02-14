@@ -1,7 +1,13 @@
 #!/bin/bash
 
+# Add Flathub repository (if not already added)
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
-# GNOME
+# Install applications via Flatpak
+flatpak install -y com.microsoft.Edge com.github.skylot.jadx net.nokyan.Resources org.onlyoffice.desktopeditors
+
+# Install Obsidian via Snap
+sudo snap install obsidian --classic
 
 # launguage in every window
 gsettings set org.gnome.desktop.input-sources per-window true
@@ -15,10 +21,7 @@ gsettings set org.gnome.desktop.wm.preferences button-layout ':minimize,maximize
 # enable dark theme
 gsettings set org.gnome.desktop.interface gtk-theme Adwaita-dark
 
-
-
 #cofig git
-
 git config --global user.name "Vafeen"
 git config --global user.email "666av6@gmail.com"
 git config --global init.defaultBranch main

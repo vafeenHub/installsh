@@ -46,6 +46,4 @@ sudo systemctl restart snapd.service
 
 sudo snap install code --classic
 sudo snap install obsidian --classic
-sudo snap inst
-
 sudo rm /bin/yelp 
