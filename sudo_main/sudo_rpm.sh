@@ -4,10 +4,19 @@
 sudo dnf update
 
 # Install necessary packages
-sudo dnf install snapd git gcc-c++ flameshot dconf-editor gnome-tweaks gnome-terminal gnome-shell-extensions gnome-shell-extension-manager nemo timeshift
+sudo dnf install snapd -y
+sudo dnf install git -y
+sudo dnf install gcc-c++ -y
+sudo dnf install flameshot -y
+sudo dnf install dconf-editor -y
+sudo dnf install gnome-tweaks -y
+sudo dnf install gnome-terminal -y
+sudo dnf install nemo -y
+sudo dnf install timeshift -y
+
 
 # Remove LibreOffice data
-sudo dnf remove libreoffice-common -y
+sudo dnf remove libreoffice-data -y
 
 # Install Flatpak
 sudo dnf install flatpak
