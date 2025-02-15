@@ -15,7 +15,8 @@ gsettings set org.gnome.desktop.wm.preferences button-layout ':minimize,maximize
 # enable dark theme
 gsettings set org.gnome.desktop.interface gtk-theme Adwaita-dark
 
-
+# set nemo as default filemanager
+xdg-mime default nemo.desktop inode/directory application/x-directory
 
 #cofig git
 
