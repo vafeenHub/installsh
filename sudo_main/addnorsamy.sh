@@ -16,7 +16,3 @@ Host gtiflic.ru
 EOF
 
 cat ~/.ssh/id_ed25519.pub
-
-
-ssh-keyscan github.com >> ~/.ssh/known_hosts
-ssh-keyscan gitflic.ru >> ~/.ssh/known_hosts

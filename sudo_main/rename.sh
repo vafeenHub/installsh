@@ -9,14 +9,14 @@ mkdir "$HOME/Music"
 mkdir "$HOME/Pictures"
 mkdir "$HOME/Videos"
 
-mv "$HOME/Рабочий стол/*" "$HOME/Desktop/"
-mv "$HOME/Загрузки/*" "$HOME/Downloads/"
-mv "$HOME/Шаблоны/*" "$HOME/Templates/"
-mv "$HOME/Общедоступные/*" "$HOME/Public/"
-mv "$HOME/Документы/*" "$HOME/Documents/"
-mv "$HOME/Музыка/*" "$HOME/Music/"
-mv "$HOME/Изображения/*" "$HOME/Pictures/"
-mv "$HOME/Видео/*" "$HOME/Videos/"
+mv ~/Рабочий\ стол/* ~/Desktop/
+mv ~/Загрузки/* ~/Downloads/
+mv ~/Шаблоны/* ~/Templates/
+mv ~/Общедоступные/* ~/Public/
+mv ~/Документы/* ~/Documents/
+mv ~/Музыка/* ~/Music/
+mv ~/Изображения/* ~/Pictures/
+mv ~/Видео/* ~/Videos/
 
 rmdir "$HOME/Рабочий стол/"
 rmdir "$HOME/Загрузки/"
