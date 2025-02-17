@@ -9,6 +9,7 @@ flatpak install -y com.microsoft.Edge com.github.skylot.jadx net.nokyan.Resource
 # Install Obsidian via Snap
 sudo snap install obsidian --classic
 sudo snap install code --classic
+sudo snap install p7zip-desktop
 
 # launguage in every window
 gsettings set org.gnome.desktop.input-sources per-window true
