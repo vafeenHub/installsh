@@ -30,6 +30,7 @@ xdg-mime default nemo.desktop inode/directory application/x-directory
 git config --global user.name "Vafeen"
 git config --global user.email "666av6@gmail.com"
 git config --global init.defaultBranch main
+git config --global core.autocrlf false
 
 # flameshot 
 chmod +x /home/a/MYSPACE/MyBin/flameshot.sh
