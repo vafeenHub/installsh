@@ -19,6 +19,7 @@ sudo apt install gnome-software-plugin-flatpak -y
 sudo snap install obsidian --classic
 sudo snap install code --classic
 
+sudo apt install qdirstat
 
 # Add Docker's official GPG key:
 sudo apt-get update
