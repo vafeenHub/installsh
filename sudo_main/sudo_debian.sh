@@ -5,29 +5,31 @@ sudo apt update
 sudo apt upgrade -y
 
 # Install necessary packages
-sudo apt install -y snapd git g++ flameshot dconf-editor gnome-tweak-tool virtualbox gnome-terminal gnome-shell-extensions gnome-shell-extension-manager nemo
+sudo apt install -y snapd 
+sudo apt install -y git 
+# sudo apt install -y g++ 
+sudo apt install -y virtualbox 
+
+# All for GNOME 
+# sudo apt install -y flameshot 
+# sudo apt install -y dconf-editor gnome-tweak-tool 
+# sudo apt install -y gnome-terminal 
+# sudo apt install -y gnome-shell-extensions 
+# sudo apt install -y gnome-shell-extension-manager
+# sudo apt install -y nemo
+# Install plugin for Flatpak support in Gnome Software
+# sudo apt install gnome-software-plugin-flatpak -y
 
 sudo apt install p7zip-full
 
 # Install Flatpak
 sudo apt install -y flatpak
 
-# Install plugin for Flatpak support in Gnome Software
-sudo apt install gnome-software-plugin-flatpak -y
-
 # Install Obsidian via Snap
 sudo snap install obsidian --classic
 sudo snap install code --classic
 
 sudo apt install qdirstat
-
-# Add Docker's official GPG key:
-sudo apt-get update
-sudo apt-get install ca-certificates curl
-sudo install -m 0755 -d /etc/apt/keyrings
-sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
-sudo chmod a+r /etc/apt/keyrings/docker.asc
-
 
 sudo apt update
 sudo apt install openjdk-17-jdk
