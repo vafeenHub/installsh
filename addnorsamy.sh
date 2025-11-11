@@ -9,7 +9,7 @@ Host github.com
     IdentityFile /home/a/.ssh/id_ed25519
 EOF
 cat << EOF >> ~/.ssh/config
-Host gtiflic.ru
+Host gitflic.ru
     HostName gitflic.ru
     User 666av6@gmail.com
     IdentityFile /home/a/.ssh/id_ed25519
